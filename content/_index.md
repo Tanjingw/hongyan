@@ -101,8 +101,6 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: hongyan@swufe.edu.cn
       directions: No. 55 Guanghua Village Street, Chengdu, 611130, China
