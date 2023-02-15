@@ -27,7 +27,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Postgraduate in Economics
+        - title: PhD candidate in Economics
           company: Southwestern University of Finance and Economics
           company_url: 'https://e.swufe.edu.cn/'
           company_logo: org-gc
