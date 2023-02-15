@@ -36,7 +36,7 @@ tags:
   - Academic
 
 categories:
-  - Demo
+  - 
 ---
 
 ```python
