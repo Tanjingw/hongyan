@@ -14,34 +14,38 @@ sections:
       # Override your bio text from `authors/admin/_index.md`?
       text:
  
-  - block: accomplishments
+  - block: experience
+    id: edu
     content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Education'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
+      title: Education
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://e.swufe.edu.cn/
-          date_end: ''
+        - title: Postgraduate in Economics
+          company: Southwestern University of Finance and Economics
+          company_url: 'https://e.swufe.edu.cn/'
+          company_logo: org-gc
+          location: Chengdu, China
           date_start: '2021-09-01'
-          title: 'Southwestern University of Finance and Economics, PhD Student'
-          url: ''
-          
-        - certificate_url: https://www.datacamp.com
-          date_end: '2021-06-01'
+          date_end: ''
+        - title: Bachelor of Economics
+          company: Henan University
+          company_url: 'https://iao.henu.edu.cn/yw/Home.htm'
+          company_logo: org-x
+          location: Kaifeng, China
           date_start: '2017-09-01'
-          description: ''
-          title: 'Henan University, Bachelor of Economics'
-          url: ''
-          
+          date_end: '2021-06-01'
     design:
       columns: '2'
+      
+      
+      
   - block: collection
     id: posts
     content:
