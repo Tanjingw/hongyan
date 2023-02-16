@@ -32,7 +32,7 @@ image:
 authors:
   - Jingwen Tan
   - Shixi Kang
-  - Hongyan Jia*
+  - Hongyan Jia
 
 tags:
   - Academic
