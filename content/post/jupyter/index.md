@@ -1,8 +1,10 @@
 ---
-title: Display Jupyter Notebooks with Academic
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
+title: Housing property rights and the social integration of migrants
+subtitle: Push and pull theory is an important macro theory in the field of demography. This paper demonstrates another practical perspective of push and pull theory by measuring the push and pull forces affecting the social integration of incoming labour from the perspective of housing property rights.
+summary: Push and pull theory is an important macro theory in the field of demography. This paper demonstrates another practical perspective of push and pull theory by measuring the push and pull forces affecting the social integration of incoming labour from the perspective of housing property rights.
 authors:
+  - Shixi Kang
+  - Jingwen Tan
   - admin
 tags: []
 categories: []
@@ -15,63 +17,15 @@ image:
 ---
 
 ```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
-
-![png](./index_1_0.png)
-
-```python
-print("Welcome to Academic!")
-```
-
-    Welcome to Academic!
-
-## Install Python and JupyterLab
-
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
-
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
-
-## Create or upload a Jupyter notebook
-
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
-
-```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab index.ipynb
-```
-
-The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
-
-## Edit your post metadata
-
-The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
-
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:
 
 ```
----
-title: My post's title
-date: 2019-09-01
 
-# Put any other Academic metadata here...
----
-```
 
-Edit the metadata of your post, using the [documentation](https://sourcethemes.com/academic/docs/managing-content) as a guide to the available options.
+## Data source
+This paper selected data from the 2018 China Migration Dynamic Survey (CMDS) organised by the National Health Planning Commission for empirical analysis. The survey covered 31 provinces (municipalities and autonomous regions) in mainland China, and the sample was selected from the migrant population who had been in the area for more than one month. The average age of the sample ranged from 15-59 years old.
 
-To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
+## Empirical analysis
+This study uses a Probit model to analyse the impact of urban and rural property rights factors on the subjective integration intentions of the migrant population. Through propensity score matching, this paper conducts robust type tests on the regression results of rural residential property rights affecting the subjective integration intentions of the migrant population; the inflection point of house price to income ratio on the integration intentions of the migrant population is calculated through quadratic regression, while instrumental variables are used to mitigate the effect of potential endogeneity on the regression results.
 
-For other tips, such as using math, see the guide on [writing content with Academic](https://wowchemy.com/docs/content/writing-markdown-latex/).
-
-## Convert notebook to Markdown
-
-```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-```
-
-## Example
-
-This post was created with Jupyter. The orginal files can be found at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter
+## Results
+There is a significant negative effect of rural residential property rights (homestead) ownership on the socio-economic integration and cultural-psychological integration of the migrant population in the inflow area. The effect of urban house prices on the social integration of the migrant population is consistent with the non-linear hypothesis - there is a negative relationship between the willingness of the migrant population to integrate socially and house prices within a realistic range.
