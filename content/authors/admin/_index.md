@@ -50,5 +50,5 @@ email: ''
 highlight_name: true
 ---
 
-I am a Ph.D. student at the Southwest University of Finance and Economics, with my main research interest in international economics. Recently I have focused on the simulation and empirical research of dynamic spatial structure models.
+I am Ph.D. student at Southwestern University of Finance and Economics, with main research interest in international economics. Recently I have focused on the simulation and empirical research of dynamic spatial structure models, my collaborators and I are using the model to analyse the impact of a quasi-natural experiment on economic and trade.
 {style="text-align: justify;"}
