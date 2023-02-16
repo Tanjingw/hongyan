@@ -4,7 +4,7 @@ title: Housing ownership and the social integration of migrant populations
 subtitle: Push-pull theory is an important macro theory in the field of demography. This paper shows another practical perspective of push and pull theory by measuring the push and pull forces affecting the social integration of the incoming labour force from the perspective of housing property rights.
 
 # Summary for listings and search engines
-Push-pull theory is an important macro theory in the field of demography. This paper shows another practical perspective of push and pull theory by measuring the push and pull forces affecting the social integration of the incoming labour force from the perspective of housing property rights.
+Summary: Push-pull theory is an important macro theory in the field of demography. This paper shows another practical perspective of push and pull theory by measuring the push and pull forces affecting the social integration of the incoming labour force from the perspective of housing property rights.
 
 # Link this post with a project
 projects: []
