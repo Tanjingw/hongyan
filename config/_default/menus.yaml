@@ -10,7 +10,7 @@ main:
   - name: Education
     url: '#projects'
     weight: 20
-  - name: research
+  - name: Research
     url: '#posts'
     weight: 30
   - name: Contact
