@@ -75,7 +75,7 @@ sections:
       columns: '2'
  
  
- - block: collection
+  - block: collection
     id: pub
     content:
       title: Publication
