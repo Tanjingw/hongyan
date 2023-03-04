@@ -10,13 +10,16 @@ main:
   - name: Education
     url: '#edu'
     weight: 20
-  - name: Research
+  - name: Rencent Research
     url: '#posts'
     weight: 30
+  - name: Publication
+    url: '#pub'
+    weight: 40
   - name: Contact
     url: '#contact'
-    weight: 40
-
+    weight: 50
+    
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
