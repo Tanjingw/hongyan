@@ -94,7 +94,7 @@ sections:
       title: Contact
       subtitle:
       # Contact (add or remove contact options as necessary)
-      email: hongyan@swufe.edu.cn
+      email: jiahongyan2023@smail.swufe.edu.cn
       directions: No. 55 Guanghua Village Street, Chengdu, 611130, China
 
       
