@@ -74,6 +74,18 @@ sections:
       view: compact
       columns: '2'
  
+ 
+ - block: collection
+    id: pub
+    content:
+      title: Publication
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      columns: '2'
+      view: citation
 
  
   - block: contact
